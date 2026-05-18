@@ -1,0 +1,26 @@
+# Environment
+.venv/
+venv/
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+standalone_admin_passwords.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data files
+data/
+tmp/
+*.csv
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Environment variables
+.env
